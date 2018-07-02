@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+  <head>
+  </head>
+  <body>
+    <h1>Stronghold Upgrade Cost Calculator</h1>
+    <p id="sub-title">A selection-based calculator that will determine the cost of resources per building, given a discount & structure</p>
+    <select>
+      <option value="guild-hall">Guild Hall</option>
+      <option value="marketplace">Marketplace</option>
+      <option value="warehouse">Warehouse</option>
+    </select>
+    <div class="category">Production Structures</div>
+    <select>
+      <option value="farm">Farm</option>
+      <option value="lumberyard">Lumberyard</option>
+      <option value="mine">Mine</option>
+      <option value="quarry">Quarry</option>
+    </select>
+    <div class="category">Support Structures</div>
+    <select>
+      <option value="animal-pen">Animal Pen</option>
+      <option value="masonry-guild">Masonry Guild</option>
+      <option value="milling-yard">Milling Yard</option>
+      <option value="smelters-yard">Smelter's Yard</option>
+    </select>
+    <div class="category">Boon Structures</div>
+    <select>
+      <option value="barracks">Barracks</option>
+      <option value="explorers-guild">Explorer's Guild</option>
+      <option value="mercenary-outpost">Mercenary Outpost</option>
+      <option value="stable">Stable</option>
+      <option value="temple">Temple</option>
+      <option value="training-yard">Training Yard</option>
+      <option value="wizards-workshop">Wizard's Workshop</option>
+    </select>
+    <div class="category">PvP Structures</div>
+    <select>
+      <option value="siege-smithy">Siege Smithy</option>
+      <option value="siege-workshop">Siege Workshop</option>
+      <option value="archer-tower">Archer Tower</option>
+      <option value="sorcerors-tower">Sorceror's Tower</option>
+      <option value="spore-tower">Underdark Spore Tower</option>
+    </select>
+
+    <div id="level-select">Structure Level</div>
+    <select>
+      <option value="one">1</option>
+      <option value="one">2</option>
+      <option value="one">3</option>
+      <option value="one">4</option>
+      <option value="one">5</option>
+      <option value="one">6</option>
+      <option value="one">7</option>
+      <option value="one">8</option>
+      <option value="one">9</option>
+      <option value="one">10</option>
+    </select>
+    <div class="discount-input">Discount</div>
+    <input type=number name="discount"/>
+
+    <div id="results" hidden="true">
+      <table></table>
+    </div>
+  </body>
